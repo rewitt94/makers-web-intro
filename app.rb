@@ -11,3 +11,7 @@ end
 get '/test' do
   'is this working'
 end
+
+get '/cat' do
+  "<html><img src= 'http://bit.ly/1eze8aE'></html>"
+end
