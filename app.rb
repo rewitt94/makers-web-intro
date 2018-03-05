@@ -13,5 +13,5 @@ get '/test' do
 end
 
 get '/cat' do
-  "<html><img src= 'http://bit.ly/1eze8aE'></html>"
+  erb(:index)
 end
